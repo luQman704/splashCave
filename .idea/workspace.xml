@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f846277d-cedf-48f8-8ba5-8de0b0fa1490" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_083606_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_083606_create_contacts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/swelcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/emails/family.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/family.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +188,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\splashCave\app\Http\Resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SURFACE\Desktop\splashCave\resources\views" />
       <recent name="C:\Users\SURFACE\Desktop\splashCave\public\css" />
       <recent name="C:\Users\SURFACE\Desktop\splashCave\resources\css" />
       <recent name="C:\Users\hp\Desktop\splashCave\app\Http" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Desktop\splashCave\app\Http\Resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -227,6 +224,8 @@
       <workItem from="1611344406059" duration="2695000" />
       <workItem from="1611478055682" duration="1436000" />
       <workItem from="1611604929656" duration="5240000" />
+      <workItem from="1611668345427" duration="4373000" />
+      <workItem from="1611680735491" duration="3120000" />
     </task>
     <servers />
   </component>
@@ -263,10 +262,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1611605243800" />
-    <state x="396" y="182" width="672" height="680" key="search.everywhere.popup" timestamp="1611647960042">
+    <state x="398" y="184" width="672" height="680" key="search.everywhere.popup" timestamp="1611682587093">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="396" y="182" width="672" height="680" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1611647960042" />
+    <state x="398" y="184" width="672" height="680" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1611682587093" />
     <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1611577518873" />
   </component>
 </project>
