@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f846277d-cedf-48f8-8ba5-8de0b0fa1490" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_083606_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_083606_create_contacts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/swelcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -180,14 +188,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SURFACE\Desktop\splashCave\public\css" />
+      <recent name="C:\Users\SURFACE\Desktop\splashCave\resources\css" />
+      <recent name="C:\Users\hp\Desktop\splashCave\app\Http" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\splashCave\app\Http\Resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Desktop\splashCave\app\Http" />
     </key>
   </component>
   <component name="RunManager">
@@ -196,7 +207,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -215,11 +226,12 @@
       <workItem from="1611150629071" duration="621000" />
       <workItem from="1611344406059" duration="2695000" />
       <workItem from="1611478055682" duration="1436000" />
+      <workItem from="1611604929656" duration="5240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -242,13 +254,19 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="580" y="189" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1608815265460" />
-    <state x="1067" y="256" key="NewPhpFileDialog" timestamp="1611115772117">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="912" y="257" key="NewPhpFileDialog" timestamp="1611603663199">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state x="912" y="257" key="NewPhpFileDialog/0.0.1368.872@0.0.1368.872" timestamp="1611603663199" />
     <state x="1067" y="256" key="NewPhpFileDialog/0.0.1600.870@0.0.1600.870" timestamp="1611115772117" />
-    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1611577518873">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="186" y="81" key="SettingsEditor" timestamp="1611605243800">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1611605243800" />
+    <state x="396" y="182" width="672" height="680" key="search.everywhere.popup" timestamp="1611647960042">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="396" y="182" width="672" height="680" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1611647960042" />
     <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1611577518873" />
   </component>
 </project>

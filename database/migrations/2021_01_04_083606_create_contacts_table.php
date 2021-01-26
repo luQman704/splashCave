@@ -18,7 +18,7 @@ class CreateContactsTable extends Migration
             $table->integer("user_id");
             $table->longText("first_name");
             $table->longText("last_name");
-            $table->integer("number");
+            $table->bigInteger("number");
             $table->timestamps();
         });
     }

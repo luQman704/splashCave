@@ -23,11 +23,13 @@ class AccountController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        $allUsers = Account::all();
+        return UserResource::collection($allUsers);
+
     }
 
     /**
@@ -47,6 +49,7 @@ class AccountController extends Controller
             'email' => ['required', 'string'],
             'password' => ['required', 'string'],
             'phone_number' => ['required'],
+            'location'    => ['required']
         ]);
 
 
@@ -58,6 +61,7 @@ class AccountController extends Controller
                     'email' => $data['email'],
                     'password' => Hash::make($data['password']),
                     'phone_number' => $data['phone_number'],
+                    'location'   => $data['location']
                 ]);
 
                 $filtered_data = substr($data['avatar'], strpos($data['avatar'], ",") + 1);
